@@ -17,6 +17,13 @@ how the script works and what your workflow will be like.
 
 [build]: https://github.com/elm-lang/elm-platform/blob/master/src/BuildFromSource.hs
 
+To run tests,
+
+```bash
+cabal install --enable-tests
+cabal test
+```
+
 ## Help
 
 If you are stuck, email
